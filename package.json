@@ -1,0 +1,23 @@
+{
+  "name": "qa-slack-bot",
+  "version": "1.0.0",
+  "description": "A slack bot to report incidents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharif-Al-Hosafy/QA-Slack-Bot.git"
+  },
+  "author": "Sharif Al Hosafy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharif-Al-Hosafy/QA-Slack-Bot/issues"
+  },
+  "homepage": "https://github.com/Sharif-Al-Hosafy/QA-Slack-Bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3"
+  }
+}
